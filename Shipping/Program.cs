@@ -1,15 +1,17 @@
-﻿using Shipping.obj;
-
-namespace Shipping;
-
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
-        int counter = 0;
-        LContainer lContainer = new LContainer(1.0, 1.0, 1.0, 1.0, 1.0, ref counter);
-        LContainer lContainer1 = new LContainer(1.0, 1.0, 1.0, 1.0, 1.0, ref counter);
-        LContainer lContainer2 = new LContainer(1.0, 1.0, 1.0, 1.0, 1.0, ref counter);
-       
+        var ship = new Ship("SS Great", 20, 100, 20000);
+
+        var refrigeratedContainer = new CContainer(2.5, 500, 2, 1000, "KON-C-1", "Bananas", -5);
+        var liquidContainer = new LContainer(2.5, 500, 2, 1000, "KON-L-1", false);
+        var gasContainer = new GContainer(2.5, 500, 2, 1000, "KON-G-1", 1.5);
+
+        ship.LoadContainer(refrigeratedContainer);
+        ship.LoadContainer(liquidContainer);
+        ship.LoadContainer(gasContainer);
+
+        ship.PrintShipInfo();
     }
 }
