@@ -11,6 +11,8 @@
         ship.LoadContainer(refrigeratedContainer);
         ship.LoadContainer(liquidContainer);
         ship.LoadContainer(gasContainer);
+        
+        ship.UnloadContainer("KON-C-1");
 
         ship.PrintShipInfo();
     }

@@ -30,6 +30,7 @@ public class Ship
         if (container != null)
         {
             Containers.Remove(container);
+            Console.WriteLine($"Container with serial number {serialNumber} unloaded successfully.");
         }
         else
         {
@@ -44,6 +45,13 @@ public class Ship
         foreach (var container in Containers)
         {
             container.PrintInfo();
+        }
+    }
+    public void LoadContainer(List<Container> containerList)
+    {
+        foreach (Container container in containerList)
+        {
+            LoadContainer(container);
         }
     }
 }
