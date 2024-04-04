@@ -60,7 +60,7 @@ namespace LegacyApp
         {
             return email.Contains("@") && email.Contains(".");
         }
-
+        
         private int CalculateAge(DateTime dateOfBirth)
         {
             var now = DateTime.Now;

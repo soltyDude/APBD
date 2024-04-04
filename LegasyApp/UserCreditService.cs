@@ -35,7 +35,6 @@
 
         public void Dispose()
         {
-            // Dispose resources
         }
     }
 
@@ -43,11 +42,10 @@
     {
         public IUserCreditService CreateUserCreditService(string clientType)
         {
-            // Return appropriate UserCreditService based on client type
             if (clientType == "ImportantClient")
                 return new UserCreditService();
             else
-                return null; // Handle other cases accordingly
+                return null; 
         }
     }
 }
