@@ -8,7 +8,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 app.UseSwagger();
-app.UseSwaggerUI();
+app.UseSwaggerUI(); 
 
 // Define endpoints for Animal operations
 app.MapGet("/animals", () => DataStore.Animals);
