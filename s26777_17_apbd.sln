@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegasyApp", "LegasyApp\LegasyApp.csproj", "{1FDF32AB-88F7-4123-AA21-C7DDA845E312}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vet", "vet\vet.csproj", "{A629EF30-B247-4B56-90E4-E0FD2A20AB5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{385D80A8-56FE-4C20-A18A-3BC016E173A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{1FDF32AB-88F7-4123-AA21-C7DDA845E312}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FDF32AB-88F7-4123-AA21-C7DDA845E312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FDF32AB-88F7-4123-AA21-C7DDA845E312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A629EF30-B247-4B56-90E4-E0FD2A20AB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A629EF30-B247-4B56-90E4-E0FD2A20AB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A629EF30-B247-4B56-90E4-E0FD2A20AB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A629EF30-B247-4B56-90E4-E0FD2A20AB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385D80A8-56FE-4C20-A18A-3BC016E173A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385D80A8-56FE-4C20-A18A-3BC016E173A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385D80A8-56FE-4C20-A18A-3BC016E173A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385D80A8-56FE-4C20-A18A-3BC016E173A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
